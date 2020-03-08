@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yan Liren | Xiaobo Cui</title>
+    <link>/authors/yan-liren/</link>
+      <atom:link href="/authors/yan-liren/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yan Liren</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Xiaobo Cui</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Yan Liren</title>
+      <link>/authors/yan-liren/</link>
+    </image>
+    
+    <item>
+      <title>Evolution Analysis of Vitis vinifera, Prunus persica and Theobroma cacao Genomes</title>
+      <link>/publication/-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
