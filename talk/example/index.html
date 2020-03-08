@@ -21,7 +21,7 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti">
+  <meta name="author" content="Xiaobo Cui">
 
   
   
@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159979678-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-159979678-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -230,9 +268,9 @@
   
   <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="og:site_name" content="Xiaobo Cui">
   <meta property="og:url" content="/talk/example/">
-  <meta property="og:title" content="Example Talk | Academic">
+  <meta property="og:title" content="Example Talk | Xiaobo Cui">
   <meta property="og:description" content="An example talk using Academic&#39;s Markdown slides feature."><meta property="og:image" content="/talk/example/featured.jpg">
   <meta property="twitter:image" content="/talk/example/featured.jpg"><meta property="og:locale" content="en-us">
   
@@ -288,7 +326,7 @@
   
   "performer": {
     "@type": "Person",
-    "name": "Nelson Bighetti"
+    "name": "Xiaobo Cui"
   },
   
   "description": "An example talk using Academic's Markdown slides feature."
@@ -307,7 +345,7 @@
 
 
 
-  <title>Example Talk | Academic</title>
+  <title>Example Talk | Xiaobo Cui</title>
 
 </head>
 
@@ -358,7 +396,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Xiaobo Cui</a>
     </div>
     
 
@@ -371,7 +409,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Xiaobo Cui</a>
     </div>
     
 
@@ -406,94 +444,31 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://blog.chipcui.top" target="_blank" rel="noopener"><span>Blog</span></a>
         </li>
 
         
@@ -895,13 +870,13 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu2da134469dd6d06b9445e2311a6f6fa8_141093_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Nelson Bighetti</a></h5>
-      <h6 class="card-subtitle">Professor of Artificial Intelligence</h6>
-      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <h5 class="card-title"><a href="/">Xiaobo Cui</a></h5>
+      <h6 class="card-subtitle">Master Candidate of Bioinformatics</h6>
+      <p class="card-text">My research interests covers a range of issues, including Pan-genome Analysis of Oilseed Rape, Oilseed Rape Omics Website Construction, Genome-wide Association Study (GWAS) of Rape Agronomic Traits.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -933,7 +908,7 @@
       
     
     <li>
-      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+      <a href="https://twitter.com/XiaoboCui" target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
@@ -948,8 +923,23 @@
       
     
     <li>
-      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+      <a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=3XhOxFEAAAAJ" target="_blank" rel="noopener">
         <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Xiaobo_Cui3" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
       </a>
     </li>
   
@@ -965,7 +955,7 @@
       
     
     <li>
-      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+      <a href="https://github.com/Chipcui" target="_blank" rel="noopener">
         <i class="fab fa-github"></i>
       </a>
     </li>
@@ -1106,7 +1096,7 @@
   
 
   <p class="powered-by">
-    
+    © 2020 Xiaobo Cui &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

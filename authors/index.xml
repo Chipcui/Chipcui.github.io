@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Academic</title>
+    <title>Authors | Xiaobo Cui</title>
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Xiaobo Cui</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -17,8 +17,7 @@
       <link>/authors/admin/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+      <description>&lt;p&gt;I am a Master student of Genomics &amp;amp; Bioinformatics at &lt;strong&gt;Genomics &amp;amp; Disease Resistance Improvement Lab&lt;/strong&gt;, which located at &lt;strong&gt;Oil Crops Research Institute of Chinese Academy of Agricultural Sciences&lt;/strong&gt;. My Master research work mainly focus on &lt;strong&gt;Genome-wide Association Study (GWAS) of Rape Agronomic Traits Based on Population Structural Variation (SV)&lt;/strong&gt;. Currently, I am also interested in &lt;strong&gt;Oilseed rape Omics Website Construction&lt;/strong&gt;, &lt;strong&gt;Oilseed rape Pan-genome construction &amp;amp; analysis&lt;/strong&gt; and &lt;strong&gt;Oilseed rape Genome SV Detection&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     
